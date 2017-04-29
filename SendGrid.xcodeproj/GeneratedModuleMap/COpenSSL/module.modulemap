@@ -1,0 +1,4 @@
+module COpenSSL {
+    umbrella header "/Users/noodlebytes/Documents/Git/Remote/Github/IBM/sendgrid-swift/.build/checkouts/COpenSSL.git--1107325238714972182/Sources/include/COpenSSL.h"
+    export *
+}

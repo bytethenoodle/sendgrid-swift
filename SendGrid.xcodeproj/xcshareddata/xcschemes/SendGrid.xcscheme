@@ -14,7 +14,63 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_98"
+               BlueprintIdentifier = "OBJ_122"
+               BuildableName = "Nest.framework"
+               BlueprintName = "Nest"
+               ReferencedContainer = "container:SendGrid.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_129"
+               BuildableName = "Inquiline.framework"
+               BlueprintName = "Inquiline"
+               ReferencedContainer = "container:SendGrid.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_141"
+               BuildableName = "Requests.framework"
+               BlueprintName = "Requests"
+               ReferencedContainer = "container:SendGrid.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_158"
+               BuildableName = "RequestSession.framework"
+               BlueprintName = "RequestSession"
+               ReferencedContainer = "container:SendGrid.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_172"
                BuildableName = "SendGrid.framework"
                BlueprintName = "SendGrid"
                ReferencedContainer = "container:SendGrid.xcodeproj">
@@ -32,7 +88,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_145"
+               BlueprintIdentifier = "OBJ_227"
                BuildableName = "SendGridTests.xctest"
                BlueprintName = "SendGridTests"
                ReferencedContainer = "container:SendGrid.xcodeproj">
@@ -55,9 +111,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_98"
-            BuildableName = "SendGrid.framework"
-            BlueprintName = "SendGrid"
+            BlueprintIdentifier = "OBJ_122"
+            BuildableName = "Nest.framework"
+            BlueprintName = "Nest"
             ReferencedContainer = "container:SendGrid.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

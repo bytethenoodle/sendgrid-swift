@@ -1,0 +1,212 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E" : 9223372036854775807,
+    "A159381094DADFEA09ECCD534D4C3E31D0BC01B4" : 9223372036854775807,
+    "3A37CCCB8009D2857E722C0BFF570B1C7EB8A4FB" : 9223372036854775807,
+    "1308E24804F967D0BFAEC5294D55BE2BE7D89573" : 9223372036854775807,
+    "43C021D2F0E746BBB29CA4E06229F111196D4871" : 9223372036854775807,
+    "CBA994F1F459E2B0EADFAFB04D634A14DC994C8B" : 9223372036854775807,
+    "DE2272125864C1638D726DA1B9A9EF60732C48A8" : 9223372036854775807,
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : 9223372036854775807,
+    "1D5E3FB3EB19F2DAF5FDEE97CBD5C55259A1CEC1" : 9223372036854775807,
+    "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : 9223372036854775807,
+    "EB3A58D245911351A063DF08C170DE3415B65824" : 9223372036854775807,
+    "40635794C1929E96A4709153927459486D34FA7B" : 9223372036854775807,
+    "908FC933CA96C901B9EB7FCA1AC9BEABA3C7F49F" : 9223372036854775807,
+    "1E341D92E29B00380C7F10E3866962C9D13CE7F8" : 9223372036854775807,
+    "B86BC8D5838CE1115DF5F4A3C12AE96B2A85F0D9" : 9223372036854775807,
+    "82A599E0AC9D2616402D902C5FFC52A88EE73B74" : 9223372036854775807,
+    "AFEF2E1BD93F36E85AC2D560F4E84962820B190D" : 9223372036854775807,
+    "92C49FC499464527BF73DD7D2F02EFFDD9DF7023" : 9223372036854775807,
+    "D4199CF4A45E212E54A4CEE7E34326E0BC446862" : 9223372036854775807,
+    "269ADF55FAAC04D68303BE30B6BD693E717155DE" : 9223372036854775807,
+    "4C40C860B4786749914FAE6F65C7DE13296994FB" : 9223372036854775807,
+    "85E996FB125657C20E42A299A76F925867A7A6E4" : 9223372036854775807,
+    "76A51B5AA54C2B42125986C7843A78515A860370" : 9223372036854775807,
+    "FDDA6274B55B6BE33F0EAB0AC1F75687925D7F32" : 9223372036854775807,
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : 9223372036854775807,
+    "900D198C3FB851E8F8E01B008846A319DD357A70" : 9223372036854775807,
+    "F7C618AF8E5D458AC5B29714A23DA142DF51FD59" : 9223372036854775807,
+    "7056FA678C155D5ADEB1AABA62DBBD1612EDC71B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CEDA38CE-E711-4E00-814F-BFB3806E5CB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E" : "sendgrid-swift\/",
+    "A159381094DADFEA09ECCD534D4C3E31D0BC01B4" : "sendgrid-swift\/.build\/checkouts\/CYAJL.git-4542064459205343853\/",
+    "3A37CCCB8009D2857E722C0BFF570B1C7EB8A4FB" : "sendgrid-swift\/.build\/checkouts\/Inquiline--5421921148665507002\/",
+    "1308E24804F967D0BFAEC5294D55BE2BE7D89573" : "sendgrid-swift\/.build\/checkouts\/Reflection.git-8761266249456215936\/",
+    "43C021D2F0E746BBB29CA4E06229F111196D4871" : "sendgrid-swift\/.build\/checkouts\/BlueSocket.git-3162807777605905816\/",
+    "CBA994F1F459E2B0EADFAFB04D634A14DC994C8B" : "sendgrid-swift\/.build\/checkouts\/File.git--286790275320188543\/",
+    "DE2272125864C1638D726DA1B9A9EF60732C48A8" : "sendgrid-swift\/.build\/checkouts\/Requests-8043165216409049653\/",
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : "sendgrid-swift\/.build\/checkouts\/IP.git--7754626322795884858\/",
+    "1D5E3FB3EB19F2DAF5FDEE97CBD5C55259A1CEC1" : "sendgrid-swift\/.build\/checkouts\/CLibvenice.git--6158812894152849781\/",
+    "77528AA6C8B451D66547916CA3CB970C85CBD7B4" : "sendgrid-swift\/.build\/checkouts\/BlueSSLService.git--6577639804771281610\/",
+    "EB3A58D245911351A063DF08C170DE3415B65824" : "sendgrid-swift\/.build\/checkouts\/HTTPClient.git-895543832884569108\/",
+    "40635794C1929E96A4709153927459486D34FA7B" : "sendgrid-swift\/.build\/checkouts\/Kitura-net.git--7410958935072501107\/",
+    "908FC933CA96C901B9EB7FCA1AC9BEABA3C7F49F" : "sendgrid-swift\/.build\/checkouts\/TCP.git-6704329150880142359\/",
+    "1E341D92E29B00380C7F10E3866962C9D13CE7F8" : "sendgrid-swift\/.build\/checkouts\/Axis.git--221026332297645589\/",
+    "B86BC8D5838CE1115DF5F4A3C12AE96B2A85F0D9" : "sendgrid-swift\/.build\/checkouts\/RequestSession--8023289229603082838\/",
+    "82A599E0AC9D2616402D902C5FFC52A88EE73B74" : "sendgrid-swift\/.build\/checkouts\/bluemix-simple-logger-swift.git-4349283162402629951\/",
+    "AFEF2E1BD93F36E85AC2D560F4E84962820B190D" : "sendgrid-swift\/.build\/checkouts\/CPOSIX.git-3088984595747919593\/",
+    "92C49FC499464527BF73DD7D2F02EFFDD9DF7023" : "sendgrid-swift\/.build\/checkouts\/bluemix-simple-http-client-swift.git--4354725089908211666\/",
+    "D4199CF4A45E212E54A4CEE7E34326E0BC446862" : "sendgrid-swift\/.build\/checkouts\/HTTP.git--272820182718543615\/",
+    "269ADF55FAAC04D68303BE30B6BD693E717155DE" : "sendgrid-swift\/.build\/checkouts\/CHTTPParser.git-5348291456210268902\/",
+    "4C40C860B4786749914FAE6F65C7DE13296994FB" : "sendgrid-swift\/.build\/checkouts\/HTTPFile.git-5168697468325196149\/",
+    "85E996FB125657C20E42A299A76F925867A7A6E4" : "sendgrid-swift\/.build\/checkouts\/LoggerAPI.git--6449715459278086880\/",
+    "76A51B5AA54C2B42125986C7843A78515A860370" : "sendgrid-swift\/.build\/checkouts\/Nest.git--2185935898851902116\/",
+    "FDDA6274B55B6BE33F0EAB0AC1F75687925D7F32" : "sendgrid-swift\/.build\/checkouts\/OpenSSL.git--3910106218684191058\/",
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : "sendgrid-swift\/.build\/checkouts\/POSIX.git-6838564179862367629\/",
+    "900D198C3FB851E8F8E01B008846A319DD357A70" : "sendgrid-swift\/.build\/checkouts\/Venice.git--7213066144657614979\/",
+    "F7C618AF8E5D458AC5B29714A23DA142DF51FD59" : "sendgrid-swift\/.build\/checkouts\/COpenSSL.git--1107325238714972182\/",
+    "7056FA678C155D5ADEB1AABA62DBBD1612EDC71B" : "sendgrid-swift\/.build\/checkouts\/Kitura-Request.git--6580905749313529741\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SendGrid",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SendGrid.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Reflection.git-8761266249456215936",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1308E24804F967D0BFAEC5294D55BE2BE7D89573"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/IP.git--7754626322795884858",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/CLibvenice.git--6158812894152849781",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D5E3FB3EB19F2DAF5FDEE97CBD5C55259A1CEC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Axis.git--221026332297645589",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E341D92E29B00380C7F10E3866962C9D13CE7F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/CHTTPParser.git-5348291456210268902",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "269ADF55FAAC04D68303BE30B6BD693E717155DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Inquiline--5421921148665507002",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A37CCCB8009D2857E722C0BFF570B1C7EB8A4FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Kitura-net.git--7410958935072501107",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40635794C1929E96A4709153927459486D34FA7B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/BlueSocket.git-3162807777605905816",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43C021D2F0E746BBB29CA4E06229F111196D4871"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/HTTPFile.git-5168697468325196149",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4C40C860B4786749914FAE6F65C7DE13296994FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bytethenoodle\/sendgrid-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6505FF70D2D5A573E653C1F3C32B9D7C0E0F069E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/POSIX.git-6838564179862367629",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "704B817219E4CBC31AA92368EF54A4E2835A8C3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Kitura-Request.git--6580905749313529741",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7056FA678C155D5ADEB1AABA62DBBD1612EDC71B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Nest.git--2185935898851902116",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76A51B5AA54C2B42125986C7843A78515A860370"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/BlueSSLService.git--6577639804771281610",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77528AA6C8B451D66547916CA3CB970C85CBD7B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/bluemix-simple-logger-swift.git-4349283162402629951",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82A599E0AC9D2616402D902C5FFC52A88EE73B74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/LoggerAPI.git--6449715459278086880",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85E996FB125657C20E42A299A76F925867A7A6E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Venice.git--7213066144657614979",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "900D198C3FB851E8F8E01B008846A319DD357A70"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/TCP.git-6704329150880142359",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "908FC933CA96C901B9EB7FCA1AC9BEABA3C7F49F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/bluemix-simple-http-client-swift.git--4354725089908211666",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92C49FC499464527BF73DD7D2F02EFFDD9DF7023"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/CYAJL.git-4542064459205343853",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A159381094DADFEA09ECCD534D4C3E31D0BC01B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/CPOSIX.git-3088984595747919593",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AFEF2E1BD93F36E85AC2D560F4E84962820B190D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/RequestSession--8023289229603082838",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B86BC8D5838CE1115DF5F4A3C12AE96B2A85F0D9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/File.git--286790275320188543",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBA994F1F459E2B0EADFAFB04D634A14DC994C8B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/HTTP.git--272820182718543615",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D4199CF4A45E212E54A4CEE7E34326E0BC446862"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/Requests-8043165216409049653",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE2272125864C1638D726DA1B9A9EF60732C48A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/HTTPClient.git-895543832884569108",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB3A58D245911351A063DF08C170DE3415B65824"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/COpenSSL.git--1107325238714972182",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7C618AF8E5D458AC5B29714A23DA142DF51FD59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/noodlebytes\/Documents\/Git\/Remote\/Github\/IBM\/sendgrid-swift\/.build\/repositories\/OpenSSL.git--3910106218684191058",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDDA6274B55B6BE33F0EAB0AC1F75687925D7F32"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+module CLibvenice {
+    umbrella "/Users/noodlebytes/Documents/Git/Remote/Github/IBM/sendgrid-swift/.build/checkouts/CLibvenice.git--6158812894152849781/Sources/include"
+    export *
+}

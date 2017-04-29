@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Temporary fix for Linux hosts...
+import RequestSession
+
 /**
  
  The `Session` class is used to faciliate the HTTP request to the SendGrid API endpoints.  When starting out, you'll want to configure `Session` with your authentication information, whether that be credentials or an API Key.  A class conforming to the `Resource` protocol is then used to provide information about the desired API call.
@@ -77,11 +80,17 @@ open class Session {
         let payload = try request.request(for: self, onBehalfOf: onBehalfOf)
         
         // Make the HTTP request
+        HTTPSession(configuration: HTTPSessionConfiguration.defaultSessionConfiguration()).dataTaskWithURL(url: payload.url! as NSURL) { (data, response, error) in
+            let resp = Response(request: request, data: data! as Data, urlResponse: nil)
+            completionHandler(resp, error)
+        }
+        
+        /*
         let task = URLSession.shared.dataTask(with: payload) { (data, response, error) in
             let resp = Response(request: request, data: data, urlResponse: response)
             completionHandler(resp, error)
         }
-        task.resume()
+        task.resume()*/
     }
     
     /**

@@ -1,0 +1,4 @@
+module CYAJL {
+    umbrella "/Users/noodlebytes/Documents/Git/Remote/Github/IBM/sendgrid-swift/.build/checkouts/CYAJL.git-4542064459205343853/Sources/CYAJL/include"
+    export *
+}

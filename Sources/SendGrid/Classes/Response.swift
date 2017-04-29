@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 /**
  
  The `Response` struct organizes and parses the HTTP responses returned from API calls.

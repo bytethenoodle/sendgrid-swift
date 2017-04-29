@@ -1,0 +1,30 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "Inquiline",
+      "reason": null,
+      "repositoryURL": "https://github.com/bytethenoodle/Inquiline",
+      "version": "0.3.4"
+    },
+    {
+      "package": "Nest",
+      "reason": null,
+      "repositoryURL": "https://github.com/nestproject/Nest.git",
+      "version": "0.4.0"
+    },
+    {
+      "package": "RequestSession",
+      "reason": null,
+      "repositoryURL": "https://github.com/bytethenoodle/RequestSession",
+      "version": "0.0.5"
+    },
+    {
+      "package": "Requests",
+      "reason": null,
+      "repositoryURL": "https://github.com/bytethenoodle/Requests",
+      "version": "0.1.4"
+    }
+  ],
+  "version": 1
+}

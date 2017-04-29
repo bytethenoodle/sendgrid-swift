@@ -7,100 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_103 /* APIV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* APIV3.swift */; };
-		OBJ_104 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Response.swift */; };
-		OBJ_105 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Session.swift */; };
-		OBJ_106 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Authentication.swift */; };
-		OBJ_107 /* ContentDisposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ContentDisposition.swift */; };
-		OBJ_108 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ContentType.swift */; };
-		OBJ_109 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* HTTPMethod.swift */; };
-		OBJ_110 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Validator.swift */; };
-		OBJ_111 /* SGError+Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* SGError+Mail.swift */; };
-		OBJ_112 /* SGError+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* SGError+Request.swift */; };
-		OBJ_113 /* SGError+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* SGError+Session.swift */; };
-		OBJ_114 /* SGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* SGError.swift */; };
-		OBJ_115 /* DictionaryConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* DictionaryConvertible.swift */; };
-		OBJ_116 /* HeaderValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* HeaderValidator.swift */; };
-		OBJ_117 /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* HTTPMessage.swift */; };
-		OBJ_118 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* JSONConvertible.swift */; };
-		OBJ_119 /* MailSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* MailSetting.swift */; };
-		OBJ_120 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Request.swift */; };
-		OBJ_121 /* Scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Scheduling.swift */; };
-		OBJ_122 /* TrackingSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* TrackingSetting.swift */; };
-		OBJ_123 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Validatable.swift */; };
-		OBJ_124 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Constants.swift */; };
-		OBJ_125 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* ParameterEncoding.swift */; };
-		OBJ_126 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Attachment.swift */; };
-		OBJ_127 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Email.swift */; };
-		OBJ_128 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Personalization.swift */; };
-		OBJ_129 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Address.swift */; };
-		OBJ_130 /* APIBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* APIBlueprint.swift */; };
-		OBJ_131 /* ASM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* ASM.swift */; };
-		OBJ_132 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Content.swift */; };
-		OBJ_133 /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* RateLimit.swift */; };
-		OBJ_134 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Setting.swift */; };
-		OBJ_135 /* BCCSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* BCCSetting.swift */; };
-		OBJ_136 /* BypassListManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* BypassListManagement.swift */; };
-		OBJ_137 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Footer.swift */; };
-		OBJ_138 /* SandboxMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* SandboxMode.swift */; };
-		OBJ_139 /* SpamChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* SpamChecker.swift */; };
-		OBJ_140 /* ClickTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ClickTracking.swift */; };
-		OBJ_141 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* GoogleAnalytics.swift */; };
-		OBJ_142 /* OpenTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* OpenTracking.swift */; };
-		OBJ_143 /* SubscriptionTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* SubscriptionTracking.swift */; };
-		OBJ_150 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* SessionTests.swift */; };
-		OBJ_151 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* AuthenticationTests.swift */; };
-		OBJ_152 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* ValidatorTests.swift */; };
-		OBJ_153 /* JSONConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* JSONConvertibleTests.swift */; };
-		OBJ_154 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* RequestTests.swift */; };
-		OBJ_155 /* ParameterEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* ParameterEncodingTests.swift */; };
-		OBJ_156 /* AttachmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* AttachmentTests.swift */; };
-		OBJ_157 /* EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* EmailTests.swift */; };
-		OBJ_158 /* PersonalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* PersonalizationTests.swift */; };
-		OBJ_159 /* AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* AddressTests.swift */; };
-		OBJ_160 /* APIBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* APIBlueprintTests.swift */; };
-		OBJ_161 /* ASMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* ASMTests.swift */; };
-		OBJ_162 /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* ContentTests.swift */; };
-		OBJ_163 /* RateLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* RateLimitTests.swift */; };
-		OBJ_164 /* SettingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* SettingTest.swift */; };
-		OBJ_165 /* BCCSettingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* BCCSettingTests.swift */; };
-		OBJ_166 /* BypassListManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* BypassListManagementTests.swift */; };
-		OBJ_167 /* FooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* FooterTests.swift */; };
-		OBJ_168 /* SandboxModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* SandboxModeTests.swift */; };
-		OBJ_169 /* SpamCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* SpamCheckerTests.swift */; };
-		OBJ_170 /* ClickTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* ClickTrackingTests.swift */; };
-		OBJ_171 /* GoogleAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* GoogleAnalyticsTests.swift */; };
-		OBJ_172 /* OpenTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* OpenTrackingTests.swift */; };
-		OBJ_173 /* SubscriptionTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* SubscriptionTrackingTests.swift */; };
-		OBJ_175 /* SendGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* SendGrid.framework */; };
+		OBJ_127 /* Nest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Nest.swift */; };
+		OBJ_134 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* Payload.swift */; };
+		OBJ_135 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Request.swift */; };
+		OBJ_136 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* Response.swift */; };
+		OBJ_137 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* Status.swift */; };
+		OBJ_139 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Nest.framework */; };
+		OBJ_146 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* Convenience.swift */; };
+		OBJ_147 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Data.swift */; };
+		OBJ_148 /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* HTTPParser.swift */; };
+		OBJ_149 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* Requests.swift */; };
+		OBJ_150 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* Socket.swift */; };
+		OBJ_151 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* String.swift */; };
+		OBJ_152 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* URL.swift */; };
+		OBJ_154 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Nest.framework */; };
+		OBJ_155 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Inquiline.framework */; };
+		OBJ_163 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* HTTPSession.swift */; };
+		OBJ_164 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* Utils.swift */; };
+		OBJ_166 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Nest.framework */; };
+		OBJ_167 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Inquiline.framework */; };
+		OBJ_168 /* Requests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Requests.framework */; };
+		OBJ_177 /* APIV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* APIV3.swift */; };
+		OBJ_178 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Response.swift */; };
+		OBJ_179 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Session.swift */; };
+		OBJ_180 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Authentication.swift */; };
+		OBJ_181 /* ContentDisposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ContentDisposition.swift */; };
+		OBJ_182 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ContentType.swift */; };
+		OBJ_183 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* HTTPMethod.swift */; };
+		OBJ_184 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Validator.swift */; };
+		OBJ_185 /* SGError+Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* SGError+Mail.swift */; };
+		OBJ_186 /* SGError+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* SGError+Request.swift */; };
+		OBJ_187 /* SGError+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* SGError+Session.swift */; };
+		OBJ_188 /* SGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* SGError.swift */; };
+		OBJ_189 /* DictionaryConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* DictionaryConvertible.swift */; };
+		OBJ_190 /* HeaderValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* HeaderValidator.swift */; };
+		OBJ_191 /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* HTTPMessage.swift */; };
+		OBJ_192 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* JSONConvertible.swift */; };
+		OBJ_193 /* MailSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* MailSetting.swift */; };
+		OBJ_194 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Request.swift */; };
+		OBJ_195 /* Scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Scheduling.swift */; };
+		OBJ_196 /* TrackingSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* TrackingSetting.swift */; };
+		OBJ_197 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Validatable.swift */; };
+		OBJ_198 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Constants.swift */; };
+		OBJ_199 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* ParameterEncoding.swift */; };
+		OBJ_200 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Attachment.swift */; };
+		OBJ_201 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Email.swift */; };
+		OBJ_202 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Personalization.swift */; };
+		OBJ_203 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Address.swift */; };
+		OBJ_204 /* APIBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* APIBlueprint.swift */; };
+		OBJ_205 /* ASM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* ASM.swift */; };
+		OBJ_206 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Content.swift */; };
+		OBJ_207 /* RateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* RateLimit.swift */; };
+		OBJ_208 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Setting.swift */; };
+		OBJ_209 /* BCCSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* BCCSetting.swift */; };
+		OBJ_210 /* BypassListManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* BypassListManagement.swift */; };
+		OBJ_211 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Footer.swift */; };
+		OBJ_212 /* SandboxMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* SandboxMode.swift */; };
+		OBJ_213 /* SpamChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* SpamChecker.swift */; };
+		OBJ_214 /* ClickTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ClickTracking.swift */; };
+		OBJ_215 /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* GoogleAnalytics.swift */; };
+		OBJ_216 /* OpenTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* OpenTracking.swift */; };
+		OBJ_217 /* SubscriptionTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* SubscriptionTracking.swift */; };
+		OBJ_219 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Nest.framework */; };
+		OBJ_220 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Inquiline.framework */; };
+		OBJ_221 /* Requests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Requests.framework */; };
+		OBJ_222 /* RequestSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* RequestSession.framework */; };
+		OBJ_232 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* SessionTests.swift */; };
+		OBJ_233 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* AuthenticationTests.swift */; };
+		OBJ_234 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* ValidatorTests.swift */; };
+		OBJ_235 /* JSONConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* JSONConvertibleTests.swift */; };
+		OBJ_236 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* RequestTests.swift */; };
+		OBJ_237 /* ParameterEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* ParameterEncodingTests.swift */; };
+		OBJ_238 /* AttachmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* AttachmentTests.swift */; };
+		OBJ_239 /* EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* EmailTests.swift */; };
+		OBJ_240 /* PersonalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* PersonalizationTests.swift */; };
+		OBJ_241 /* AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* AddressTests.swift */; };
+		OBJ_242 /* APIBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* APIBlueprintTests.swift */; };
+		OBJ_243 /* ASMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* ASMTests.swift */; };
+		OBJ_244 /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* ContentTests.swift */; };
+		OBJ_245 /* RateLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* RateLimitTests.swift */; };
+		OBJ_246 /* SettingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* SettingTest.swift */; };
+		OBJ_247 /* BCCSettingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* BCCSettingTests.swift */; };
+		OBJ_248 /* BypassListManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* BypassListManagementTests.swift */; };
+		OBJ_249 /* FooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* FooterTests.swift */; };
+		OBJ_250 /* SandboxModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* SandboxModeTests.swift */; };
+		OBJ_251 /* SpamCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* SpamCheckerTests.swift */; };
+		OBJ_252 /* ClickTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* ClickTrackingTests.swift */; };
+		OBJ_253 /* GoogleAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* GoogleAnalyticsTests.swift */; };
+		OBJ_254 /* OpenTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* OpenTrackingTests.swift */; };
+		OBJ_255 /* SubscriptionTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* SubscriptionTrackingTests.swift */; };
+		OBJ_257 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Nest.framework */; };
+		OBJ_258 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Inquiline.framework */; };
+		OBJ_259 /* Requests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Requests.framework */; };
+		OBJ_260 /* RequestSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* RequestSession.framework */; };
+		OBJ_261 /* SendGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* SendGrid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		771F19511E68E9BE00C6BA96 /* PBXContainerItemProxy */ = {
+		96D76E8B1EB5241C00E015B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_98;
+			remoteGlobalIDString = OBJ_122;
+			remoteInfo = Nest;
+		};
+		96D76E8C1EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_122;
+			remoteInfo = Nest;
+		};
+		96D76E8D1EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_129;
+			remoteInfo = Inquiline;
+		};
+		96D76E8E1EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_122;
+			remoteInfo = Nest;
+		};
+		96D76E8F1EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_129;
+			remoteInfo = Inquiline;
+		};
+		96D76E901EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_141;
+			remoteInfo = Requests;
+		};
+		96D76E911EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_122;
+			remoteInfo = Nest;
+		};
+		96D76E921EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_129;
+			remoteInfo = Inquiline;
+		};
+		96D76E931EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_141;
+			remoteInfo = Requests;
+		};
+		96D76E941EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_158;
+			remoteInfo = RequestSession;
+		};
+		96D76E951EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_122;
+			remoteInfo = Nest;
+		};
+		96D76E961EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_129;
+			remoteInfo = Inquiline;
+		};
+		96D76E971EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_141;
+			remoteInfo = Requests;
+		};
+		96D76E981EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_158;
+			remoteInfo = RequestSession;
+		};
+		96D76E991EB5241C00E015B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_172;
 			remoteInfo = SendGrid;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		771F19521E68E9D900C6BA96 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		OBJ_10 /* APIV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIV3.swift; sourceTree = "<group>"; };
+		OBJ_101 /* Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		OBJ_102 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		OBJ_103 /* HTTPParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParser.swift; sourceTree = "<group>"; };
+		OBJ_104 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		OBJ_105 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_106 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_107 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		OBJ_109 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_110 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_111 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_112 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		OBJ_114 /* Nest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest.swift; sourceTree = "<group>"; };
+		OBJ_116 /* Nest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_117 /* Inquiline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Inquiline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_118 /* Requests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Requests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_119 /* RequestSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RequestSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		OBJ_120 /* SendGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SendGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_121 /* SendGridTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SendGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
 		OBJ_15 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 		OBJ_16 /* Personalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalization.swift; sourceTree = "<group>"; };
@@ -164,29 +296,120 @@
 		OBJ_91 /* JSONConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvertibleTests.swift; sourceTree = "<group>"; };
 		OBJ_92 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		OBJ_94 /* ParameterEncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncodingTests.swift; sourceTree = "<group>"; };
-		OBJ_96 /* SendGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SendGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_97 /* SendGridTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SendGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_98 /* HTTPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
+		OBJ_99 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_144 /* Frameworks */ = {
+		OBJ_128 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_174 /* Frameworks */ = {
+		OBJ_138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_175 /* SendGrid.framework in Frameworks */,
+				OBJ_139 /* Nest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_154 /* Nest.framework in Frameworks */,
+				OBJ_155 /* Inquiline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_166 /* Nest.framework in Frameworks */,
+				OBJ_167 /* Inquiline.framework in Frameworks */,
+				OBJ_168 /* Requests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_219 /* Nest.framework in Frameworks */,
+				OBJ_220 /* Inquiline.framework in Frameworks */,
+				OBJ_221 /* Requests.framework in Frameworks */,
+				OBJ_222 /* RequestSession.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_257 /* Nest.framework in Frameworks */,
+				OBJ_258 /* Inquiline.framework in Frameworks */,
+				OBJ_259 /* Requests.framework in Frameworks */,
+				OBJ_260 /* RequestSession.framework in Frameworks */,
+				OBJ_261 /* SendGrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		OBJ_100 /* Requests 0.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_101 /* Convenience.swift */,
+				OBJ_102 /* Data.swift */,
+				OBJ_103 /* HTTPParser.swift */,
+				OBJ_104 /* Requests.swift */,
+				OBJ_105 /* Socket.swift */,
+				OBJ_106 /* String.swift */,
+				OBJ_107 /* URL.swift */,
+			);
+			name = "Requests 0.1.4";
+			path = ".build/checkouts/Requests-8043165216409049653/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_108 /* Inquiline 0.3.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_109 /* Payload.swift */,
+				OBJ_110 /* Request.swift */,
+				OBJ_111 /* Response.swift */,
+				OBJ_112 /* Status.swift */,
+			);
+			name = "Inquiline 0.3.4";
+			path = ".build/checkouts/Inquiline--5421921148665507002/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_113 /* Nest 0.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_114 /* Nest.swift */,
+			);
+			name = "Nest 0.4.0";
+			path = ".build/checkouts/Nest.git--2185935898851902116/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_116 /* Nest.framework */,
+				OBJ_117 /* Inquiline.framework */,
+				OBJ_118 /* Requests.framework */,
+				OBJ_119 /* RequestSession.framework */,
+				OBJ_120 /* SendGrid.framework */,
+				OBJ_121 /* SendGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		OBJ_13 /* Mail */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,14 +505,16 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_60 /* Tests */,
-				OBJ_95 /* Products */,
+				OBJ_95 /* Dependencies */,
+				OBJ_115 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_57 /* Structs */ = {
@@ -306,8 +531,8 @@
 			children = (
 				OBJ_61 /* SendGridTests */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_61 /* SendGridTests */ = {
 			isa = PBXGroup;
@@ -357,8 +582,8 @@
 			children = (
 				OBJ_8 /* SendGrid */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_70 /* Mail Settings */ = {
 			isa = PBXGroup;
@@ -446,51 +671,148 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
-		OBJ_95 /* Products */ = {
+		OBJ_95 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_96 /* SendGrid.framework */,
-				OBJ_97 /* SendGridTests.xctest */,
+				OBJ_96 /* RequestSession 0.0.5 */,
+				OBJ_100 /* Requests 0.1.4 */,
+				OBJ_108 /* Inquiline 0.3.4 */,
+				OBJ_113 /* Nest 0.4.0 */,
 			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_96 /* RequestSession 0.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_97 /* RequestSession */,
+			);
+			name = "RequestSession 0.0.5";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_97 /* RequestSession */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_98 /* HTTPSession.swift */,
+				OBJ_99 /* Utils.swift */,
+			);
+			name = RequestSession;
+			path = ".build/checkouts/RequestSession--8023289229603082838/Sources/RequestSession";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_145 /* SendGridTests */ = {
+		OBJ_122 /* Nest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_146 /* Build configuration list for PBXNativeTarget "SendGridTests" */;
+			buildConfigurationList = OBJ_123 /* Build configuration list for PBXNativeTarget "Nest" */;
 			buildPhases = (
-				OBJ_149 /* Sources */,
-				OBJ_174 /* Frameworks */,
-				771F19521E68E9D900C6BA96 /* CopyFiles */,
+				OBJ_126 /* Sources */,
+				OBJ_128 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_176 /* PBXTargetDependency */,
 			);
-			name = SendGridTests;
-			productName = SendGridTests;
-			productReference = OBJ_97 /* SendGridTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Nest;
+			productName = Nest;
+			productReference = OBJ_116 /* Nest.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		OBJ_98 /* SendGrid */ = {
+		OBJ_129 /* Inquiline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_99 /* Build configuration list for PBXNativeTarget "SendGrid" */;
+			buildConfigurationList = OBJ_130 /* Build configuration list for PBXNativeTarget "Inquiline" */;
 			buildPhases = (
-				OBJ_102 /* Sources */,
-				OBJ_144 /* Frameworks */,
+				OBJ_133 /* Sources */,
+				OBJ_138 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_140 /* PBXTargetDependency */,
+			);
+			name = Inquiline;
+			productName = Inquiline;
+			productReference = OBJ_117 /* Inquiline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_141 /* Requests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_142 /* Build configuration list for PBXNativeTarget "Requests" */;
+			buildPhases = (
+				OBJ_145 /* Sources */,
+				OBJ_153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_156 /* PBXTargetDependency */,
+				OBJ_157 /* PBXTargetDependency */,
+			);
+			name = Requests;
+			productName = Requests;
+			productReference = OBJ_118 /* Requests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_158 /* RequestSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_159 /* Build configuration list for PBXNativeTarget "RequestSession" */;
+			buildPhases = (
+				OBJ_162 /* Sources */,
+				OBJ_165 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_169 /* PBXTargetDependency */,
+				OBJ_170 /* PBXTargetDependency */,
+				OBJ_171 /* PBXTargetDependency */,
+			);
+			name = RequestSession;
+			productName = RequestSession;
+			productReference = OBJ_119 /* RequestSession.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_172 /* SendGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_173 /* Build configuration list for PBXNativeTarget "SendGrid" */;
+			buildPhases = (
+				OBJ_176 /* Sources */,
+				OBJ_218 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_223 /* PBXTargetDependency */,
+				OBJ_224 /* PBXTargetDependency */,
+				OBJ_225 /* PBXTargetDependency */,
+				OBJ_226 /* PBXTargetDependency */,
 			);
 			name = SendGrid;
 			productName = SendGrid;
-			productReference = OBJ_96 /* SendGrid.framework */;
+			productReference = OBJ_120 /* SendGrid.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		OBJ_227 /* SendGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_228 /* Build configuration list for PBXNativeTarget "SendGridTests" */;
+			buildPhases = (
+				OBJ_231 /* Sources */,
+				OBJ_256 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_262 /* PBXTargetDependency */,
+				OBJ_263 /* PBXTargetDependency */,
+				OBJ_264 /* PBXTargetDependency */,
+				OBJ_265 /* PBXTargetDependency */,
+				OBJ_266 /* PBXTargetDependency */,
+			);
+			name = SendGridTests;
+			productName = SendGridTests;
+			productReference = OBJ_121 /* SendGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -507,109 +829,393 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_95 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_115 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_98 /* SendGrid */,
-				OBJ_145 /* SendGridTests */,
+				OBJ_122 /* Nest */,
+				OBJ_129 /* Inquiline */,
+				OBJ_141 /* Requests */,
+				OBJ_158 /* RequestSession */,
+				OBJ_172 /* SendGrid */,
+				OBJ_227 /* SendGridTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_102 /* Sources */ = {
+		OBJ_126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_103 /* APIV3.swift in Sources */,
-				OBJ_104 /* Response.swift in Sources */,
-				OBJ_105 /* Session.swift in Sources */,
-				OBJ_106 /* Authentication.swift in Sources */,
-				OBJ_107 /* ContentDisposition.swift in Sources */,
-				OBJ_108 /* ContentType.swift in Sources */,
-				OBJ_109 /* HTTPMethod.swift in Sources */,
-				OBJ_110 /* Validator.swift in Sources */,
-				OBJ_111 /* SGError+Mail.swift in Sources */,
-				OBJ_112 /* SGError+Request.swift in Sources */,
-				OBJ_113 /* SGError+Session.swift in Sources */,
-				OBJ_114 /* SGError.swift in Sources */,
-				OBJ_115 /* DictionaryConvertible.swift in Sources */,
-				OBJ_116 /* HeaderValidator.swift in Sources */,
-				OBJ_117 /* HTTPMessage.swift in Sources */,
-				OBJ_118 /* JSONConvertible.swift in Sources */,
-				OBJ_119 /* MailSetting.swift in Sources */,
-				OBJ_120 /* Request.swift in Sources */,
-				OBJ_121 /* Scheduling.swift in Sources */,
-				OBJ_122 /* TrackingSetting.swift in Sources */,
-				OBJ_123 /* Validatable.swift in Sources */,
-				OBJ_124 /* Constants.swift in Sources */,
-				OBJ_125 /* ParameterEncoding.swift in Sources */,
-				OBJ_126 /* Attachment.swift in Sources */,
-				OBJ_127 /* Email.swift in Sources */,
-				OBJ_128 /* Personalization.swift in Sources */,
-				OBJ_129 /* Address.swift in Sources */,
-				OBJ_130 /* APIBlueprint.swift in Sources */,
-				OBJ_131 /* ASM.swift in Sources */,
-				OBJ_132 /* Content.swift in Sources */,
-				OBJ_133 /* RateLimit.swift in Sources */,
-				OBJ_134 /* Setting.swift in Sources */,
-				OBJ_135 /* BCCSetting.swift in Sources */,
-				OBJ_136 /* BypassListManagement.swift in Sources */,
-				OBJ_137 /* Footer.swift in Sources */,
-				OBJ_138 /* SandboxMode.swift in Sources */,
-				OBJ_139 /* SpamChecker.swift in Sources */,
-				OBJ_140 /* ClickTracking.swift in Sources */,
-				OBJ_141 /* GoogleAnalytics.swift in Sources */,
-				OBJ_142 /* OpenTracking.swift in Sources */,
-				OBJ_143 /* SubscriptionTracking.swift in Sources */,
+				OBJ_127 /* Nest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_149 /* Sources */ = {
+		OBJ_133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_150 /* SessionTests.swift in Sources */,
-				OBJ_151 /* AuthenticationTests.swift in Sources */,
-				OBJ_152 /* ValidatorTests.swift in Sources */,
-				OBJ_153 /* JSONConvertibleTests.swift in Sources */,
-				OBJ_154 /* RequestTests.swift in Sources */,
-				OBJ_155 /* ParameterEncodingTests.swift in Sources */,
-				OBJ_156 /* AttachmentTests.swift in Sources */,
-				OBJ_157 /* EmailTests.swift in Sources */,
-				OBJ_158 /* PersonalizationTests.swift in Sources */,
-				OBJ_159 /* AddressTests.swift in Sources */,
-				OBJ_160 /* APIBlueprintTests.swift in Sources */,
-				OBJ_161 /* ASMTests.swift in Sources */,
-				OBJ_162 /* ContentTests.swift in Sources */,
-				OBJ_163 /* RateLimitTests.swift in Sources */,
-				OBJ_164 /* SettingTest.swift in Sources */,
-				OBJ_165 /* BCCSettingTests.swift in Sources */,
-				OBJ_166 /* BypassListManagementTests.swift in Sources */,
-				OBJ_167 /* FooterTests.swift in Sources */,
-				OBJ_168 /* SandboxModeTests.swift in Sources */,
-				OBJ_169 /* SpamCheckerTests.swift in Sources */,
-				OBJ_170 /* ClickTrackingTests.swift in Sources */,
-				OBJ_171 /* GoogleAnalyticsTests.swift in Sources */,
-				OBJ_172 /* OpenTrackingTests.swift in Sources */,
-				OBJ_173 /* SubscriptionTrackingTests.swift in Sources */,
+				OBJ_134 /* Payload.swift in Sources */,
+				OBJ_135 /* Request.swift in Sources */,
+				OBJ_136 /* Response.swift in Sources */,
+				OBJ_137 /* Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_146 /* Convenience.swift in Sources */,
+				OBJ_147 /* Data.swift in Sources */,
+				OBJ_148 /* HTTPParser.swift in Sources */,
+				OBJ_149 /* Requests.swift in Sources */,
+				OBJ_150 /* Socket.swift in Sources */,
+				OBJ_151 /* String.swift in Sources */,
+				OBJ_152 /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_163 /* HTTPSession.swift in Sources */,
+				OBJ_164 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_177 /* APIV3.swift in Sources */,
+				OBJ_178 /* Response.swift in Sources */,
+				OBJ_179 /* Session.swift in Sources */,
+				OBJ_180 /* Authentication.swift in Sources */,
+				OBJ_181 /* ContentDisposition.swift in Sources */,
+				OBJ_182 /* ContentType.swift in Sources */,
+				OBJ_183 /* HTTPMethod.swift in Sources */,
+				OBJ_184 /* Validator.swift in Sources */,
+				OBJ_185 /* SGError+Mail.swift in Sources */,
+				OBJ_186 /* SGError+Request.swift in Sources */,
+				OBJ_187 /* SGError+Session.swift in Sources */,
+				OBJ_188 /* SGError.swift in Sources */,
+				OBJ_189 /* DictionaryConvertible.swift in Sources */,
+				OBJ_190 /* HeaderValidator.swift in Sources */,
+				OBJ_191 /* HTTPMessage.swift in Sources */,
+				OBJ_192 /* JSONConvertible.swift in Sources */,
+				OBJ_193 /* MailSetting.swift in Sources */,
+				OBJ_194 /* Request.swift in Sources */,
+				OBJ_195 /* Scheduling.swift in Sources */,
+				OBJ_196 /* TrackingSetting.swift in Sources */,
+				OBJ_197 /* Validatable.swift in Sources */,
+				OBJ_198 /* Constants.swift in Sources */,
+				OBJ_199 /* ParameterEncoding.swift in Sources */,
+				OBJ_200 /* Attachment.swift in Sources */,
+				OBJ_201 /* Email.swift in Sources */,
+				OBJ_202 /* Personalization.swift in Sources */,
+				OBJ_203 /* Address.swift in Sources */,
+				OBJ_204 /* APIBlueprint.swift in Sources */,
+				OBJ_205 /* ASM.swift in Sources */,
+				OBJ_206 /* Content.swift in Sources */,
+				OBJ_207 /* RateLimit.swift in Sources */,
+				OBJ_208 /* Setting.swift in Sources */,
+				OBJ_209 /* BCCSetting.swift in Sources */,
+				OBJ_210 /* BypassListManagement.swift in Sources */,
+				OBJ_211 /* Footer.swift in Sources */,
+				OBJ_212 /* SandboxMode.swift in Sources */,
+				OBJ_213 /* SpamChecker.swift in Sources */,
+				OBJ_214 /* ClickTracking.swift in Sources */,
+				OBJ_215 /* GoogleAnalytics.swift in Sources */,
+				OBJ_216 /* OpenTracking.swift in Sources */,
+				OBJ_217 /* SubscriptionTracking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_232 /* SessionTests.swift in Sources */,
+				OBJ_233 /* AuthenticationTests.swift in Sources */,
+				OBJ_234 /* ValidatorTests.swift in Sources */,
+				OBJ_235 /* JSONConvertibleTests.swift in Sources */,
+				OBJ_236 /* RequestTests.swift in Sources */,
+				OBJ_237 /* ParameterEncodingTests.swift in Sources */,
+				OBJ_238 /* AttachmentTests.swift in Sources */,
+				OBJ_239 /* EmailTests.swift in Sources */,
+				OBJ_240 /* PersonalizationTests.swift in Sources */,
+				OBJ_241 /* AddressTests.swift in Sources */,
+				OBJ_242 /* APIBlueprintTests.swift in Sources */,
+				OBJ_243 /* ASMTests.swift in Sources */,
+				OBJ_244 /* ContentTests.swift in Sources */,
+				OBJ_245 /* RateLimitTests.swift in Sources */,
+				OBJ_246 /* SettingTest.swift in Sources */,
+				OBJ_247 /* BCCSettingTests.swift in Sources */,
+				OBJ_248 /* BypassListManagementTests.swift in Sources */,
+				OBJ_249 /* FooterTests.swift in Sources */,
+				OBJ_250 /* SandboxModeTests.swift in Sources */,
+				OBJ_251 /* SpamCheckerTests.swift in Sources */,
+				OBJ_252 /* ClickTrackingTests.swift in Sources */,
+				OBJ_253 /* GoogleAnalyticsTests.swift in Sources */,
+				OBJ_254 /* OpenTrackingTests.swift in Sources */,
+				OBJ_255 /* SubscriptionTrackingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_176 /* PBXTargetDependency */ = {
+		OBJ_140 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_98 /* SendGrid */;
-			targetProxy = 771F19511E68E9BE00C6BA96 /* PBXContainerItemProxy */;
+			target = OBJ_122 /* Nest */;
+			targetProxy = 96D76E8B1EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_122 /* Nest */;
+			targetProxy = 96D76E8C1EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_129 /* Inquiline */;
+			targetProxy = 96D76E8D1EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_122 /* Nest */;
+			targetProxy = 96D76E8E1EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_129 /* Inquiline */;
+			targetProxy = 96D76E8F1EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_141 /* Requests */;
+			targetProxy = 96D76E901EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_122 /* Nest */;
+			targetProxy = 96D76E911EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_129 /* Inquiline */;
+			targetProxy = 96D76E921EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_141 /* Requests */;
+			targetProxy = 96D76E931EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_158 /* RequestSession */;
+			targetProxy = 96D76E941EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_122 /* Nest */;
+			targetProxy = 96D76E951EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_129 /* Inquiline */;
+			targetProxy = 96D76E961EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_141 /* Requests */;
+			targetProxy = 96D76E971EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_158 /* RequestSession */;
+			targetProxy = 96D76E981EB5241C00E015B5 /* PBXContainerItemProxy */;
+		};
+		OBJ_266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_172 /* SendGrid */;
+			targetProxy = 96D76E991EB5241C00E015B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_100 /* Debug */ = {
+		OBJ_124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Nest_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Nest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Nest;
+			};
+			name = Debug;
+		};
+		OBJ_125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Nest_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Nest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Nest;
+			};
+			name = Release;
+		};
+		OBJ_131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Inquiline_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Inquiline;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Inquiline;
+			};
+			name = Debug;
+		};
+		OBJ_132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Inquiline_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Inquiline;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Inquiline;
+			};
+			name = Release;
+		};
+		OBJ_143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Requests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Requests;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Requests;
+			};
+			name = Debug;
+		};
+		OBJ_144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/Requests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Requests;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Requests;
+			};
+			name = Release;
+		};
+		OBJ_160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/RequestSession_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RequestSession;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = RequestSession;
+			};
+			name = Debug;
+		};
+		OBJ_161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SendGrid.xcodeproj/RequestSession_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = RequestSession;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = RequestSession;
+			};
+			name = Release;
+		};
+		OBJ_174 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -625,11 +1231,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SendGrid;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGET_NAME = SendGrid;
 			};
 			name = Debug;
 		};
-		OBJ_101 /* Release */ = {
+		OBJ_175 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -645,11 +1252,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SendGrid;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGET_NAME = SendGrid;
 			};
 			name = Release;
 		};
-		OBJ_147 /* Debug */ = {
+		OBJ_229 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -659,14 +1267,14 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SendGrid.xcodeproj/SendGridTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				TARGET_NAME = SendGridTests;
 			};
 			name = Debug;
 		};
-		OBJ_148 /* Release */ = {
+		OBJ_230 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -676,7 +1284,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SendGrid.xcodeproj/SendGridTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				TARGET_NAME = SendGridTests;
@@ -686,6 +1294,7 @@
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -708,6 +1317,7 @@
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -719,7 +1329,7 @@
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				USE_HEADERMAP = NO;
 			};
@@ -728,11 +1338,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_146 /* Build configuration list for PBXNativeTarget "SendGridTests" */ = {
+		OBJ_123 /* Build configuration list for PBXNativeTarget "Nest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_147 /* Debug */,
-				OBJ_148 /* Release */,
+				OBJ_124 /* Debug */,
+				OBJ_125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_130 /* Build configuration list for PBXNativeTarget "Inquiline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_131 /* Debug */,
+				OBJ_132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_142 /* Build configuration list for PBXNativeTarget "Requests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_143 /* Debug */,
+				OBJ_144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_159 /* Build configuration list for PBXNativeTarget "RequestSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_160 /* Debug */,
+				OBJ_161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_173 /* Build configuration list for PBXNativeTarget "SendGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_174 /* Debug */,
+				OBJ_175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -746,11 +1392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_99 /* Build configuration list for PBXNativeTarget "SendGrid" */ = {
+		OBJ_228 /* Build configuration list for PBXNativeTarget "SendGridTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_100 /* Debug */,
-				OBJ_101 /* Release */,
+				OBJ_229 /* Debug */,
+				OBJ_230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
