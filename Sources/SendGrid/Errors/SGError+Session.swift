@@ -12,7 +12,7 @@ public extension SGError {
     
     /**
      
-     The `Session` enum contains all the errors thrown when attempting to build an HTTP request.
+     The 'Session' enum contains all the errors thrown when attempting to build an HTTP request.
      
      */
     public enum Session: Error, CustomStringConvertible {
@@ -33,14 +33,10 @@ public extension SGError {
         public var description: String {
             switch self {
             case .authenticationMissing:
-                return NSLocalizedString(
-                    "Could not make an HTTP request as there was no `Authentication` configured on `Session`. Please set the `authentication` property before calling `send` on `Session`.",
-                    comment: "Authentication missing")
+                return "Could not make an HTTP request as there was no 'Authentication' configured on 'Session'. Please set the `authentication` property before calling 'send' on 'Session'."
                 
             case .authenticationTypeNotAllowed(let object, let authType):
-                return String(format: NSLocalizedString(
-                    "The `%@` class does not allow authentication with %@s. Please try using another Authentication type.",
-                    comment: "Authentication type not allowed"), String(describing: object), String(describing: authType))
+                return "The \(String(describing: object)) class does not allow authentication with \(String(describing: authType)). Please try using another Authentication type."
             }
         }
     }
