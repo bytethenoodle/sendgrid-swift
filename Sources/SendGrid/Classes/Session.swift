@@ -77,7 +77,8 @@ open class Session {
         let payload = try request.request(for: self, onBehalfOf: onBehalfOf)
         
         // Make the HTTP request
-        let task = URLSession.shared.dataTask(with: payload) { (data, response, error) in
+        let session = URLSession(configuration: URLSessionConfiguration.default)
+        let task = session.dataTask(with: payload) { (data, response, error) in
             let resp = Response(request: request, data: data, urlResponse: response)
             completionHandler(resp, error)
         }
