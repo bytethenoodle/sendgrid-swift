@@ -103,10 +103,16 @@ private class Localizator {
     static let sharedInstance = Localizator()
     private var localizableDictionary: [String : Any] {
         if let path = Bundle.main.path(forResource: "LocalizedStrings", ofType: "plist") {
-            if let dictionary = NSDictionary(contentsOfFile: path) as? [String : Any] {
-                return dictionary
+            do {
+                let rawData = try Data(contentsOf: URL(fileURLWithPath: path))
+                if let realData = try PropertyListSerialization.propertyList(from: rawData, format: nil) as? [String:Any] {
+                    return realData
+                }
+                else {
+                    return [:]
+                }
             }
-            else {
+            catch {
                 return [:]
             }
         }
