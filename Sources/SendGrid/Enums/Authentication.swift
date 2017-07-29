@@ -88,10 +88,48 @@ public enum Authentication: CustomStringConvertible {
     public var description: String {
         switch self {
         case .credential(_,_):
-            return NSLocalizedString("credential", comment: "Authentication credential")
+            return LocalizableString("credential", comment: "Authentication credential")
         case .apiKey(_):
-            return NSLocalizedString("API Key", comment: "Authentication API Key")
+            return LocalizableString("API Key", comment: "Authentication API Key")
         }
     }
 
+}
+
+// MARK: - Custom Localization class
+//=========================================================================
+
+private class Localizator {
+    static let sharedInstance = Localizator()
+    private var localizableDictionary: [String : Any] {
+        if let path = Bundle.main.path(forResource: "LocalizedStrings", ofType: "plist") {
+            if let dictionary = NSDictionary(contentsOfFile: path) as? [String : Any] {
+                return dictionary
+            }
+            else {
+                return [:]
+            }
+        }
+        else {
+            return [:]
+        }
+    }
+    
+    func localize(_ key: String, message: String) -> String {
+        if let rootDictionary = localizableDictionary[Locale.current.identifier] as? [String : Any] {
+            if let value = rootDictionary[key] as? String {
+                return value
+            }
+            else {
+                return message
+            }
+        }
+        else {
+            return message
+        }
+    }
+}
+
+public func LocalizableString(_ message: String, comment: String) -> String {
+    return Localizator.sharedInstance.localize(comment, message: message)
 }

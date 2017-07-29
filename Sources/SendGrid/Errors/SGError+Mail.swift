@@ -93,118 +93,118 @@ public extension SGError {
         public var description: String {
             switch self {
             case .malformedEmailAddress(let email):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "\"%@\" is not a valid email address. Please provide an RFC 5322 compliant email address.",
                     comment: "Malformed email address"), email)
                 
             case .invalidScheduleDate:
-                return NSLocalizedString(
+                return LocalizableString(
                     "An email cannot be scheduled further than 72 hours in the future.",
                     comment: "Invalid schedule date")
                 
             case .missingSubscriptionTrackingTag:
-                return NSLocalizedString(
+                return LocalizableString(
                     "When specifying plain text and HTML text for the subscription tracking setting, you must include the `<% %>` tag to indicate where the unsubscribe URL should be placed.",
                     comment: "Missing subscription tracking tag")
                 
             case .missingRecipients:
-                return NSLocalizedString(
+                return LocalizableString(
                     "At least one recipient is required for a personalization.",
                     comment: "Missing recipients")
                 
             case .thresholdOutOfRange(let threshold):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "The spam checker app only accepts a threshold which is between 1 and 10 (attempted to use %i)",
                     comment: "Threshold out of range"), threshold)
                 
             case .tooManyUnsubscribeGroups:
-                return NSLocalizedString(
+                return LocalizableString(
                     "The `ASM` struct can have no more than 25 unsubscribe groups to display.",
                     comment: "Too many unsubscribe groups")
                 
             case .invalidNumberOfPersonalizations:
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "An `Email` must contain at least 1 personalization and cannot exceed %i personalizations.",
                     comment: "Invalid number of personalizations"), Constants.PersonalizationLimit)
 
             case .missingContent:
-                return NSLocalizedString(
+                return LocalizableString(
                     "An `Email` must contain at least 1 `Content` instance.",
                     comment: "Missing content")
                 
             case .contentHasEmptyString:
-                return NSLocalizedString(
+                return LocalizableString(
                     "The `value` property on `Content` must be a string at least one character in length.",
                     comment: "Content has empty string")
                 
             case .invalidContentOrder:
-                return NSLocalizedString(
+                return LocalizableString(
                     "When specifying the content of an email, the plain text version must be first (if present), followed by the HTML version (if present), and then any other content.",
                     comment: "Invalid content order")
                 
             case .tooManyRecipients:
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Your `Email` instance contains too many recipients. The total number of recipients cannot exceed %i addresses. This includes all recipients defined within the `to`, `cc`, and `bcc` parameters, across each `Personalization` instance that you include in the personalizations array.",
                     comment: "Too many recipients"), Constants.RecipientLimit)
                 
             case .missingSubject:
-                return NSLocalizedString(
+                return LocalizableString(
                     "An `Email` instance must contain a subject line for every personalization, and the subject line must contain at least 1 character. You can either define a global subject on the `Email` instance, add a subject line in every `Personalization` instance, or specify a template ID that contains a subject.",
                     comment: "Missing subject")
                 
             case .headerNotAllowed(let header):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "The \"%@\" header is a reserved header, and cannot be used in the `headers` property.",
                     comment: "Header not allowed"), header)
                 
             case .malformedHeader(let header):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Invalid header \"%@\": When defining the headers that you would like to use, you must make sure that the header's name contains only ASCII characters and no spaces.",
                     comment: "Malformed header"), header)
                 
             case .tooManyCategories:
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "You cannot have more than %i categories associated with an email.",
                     comment: "Too many categories"), Constants.Categories.TotalLimit)
                 
             case .categoryTooLong(let category):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "A category cannot have more than %i characters (attempted to use category named \"%@\").",
                     comment: "Category too long"), Constants.Categories.CharacterLimit, category)
                 
             case .tooManySubstitutions:
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "You cannot have more than %i substitutions in a personalization.",
                     comment: "Too many substitutions"), Constants.SubstitutionLimit)
                 
             case .invalidContentType(let contentType):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Invalid content type \"%@\": Content types cannot contain ‘;’, spaces, or CRLF characters, and must be at least 1 character long.",
                     comment: "Invalid content type"), contentType)
                 
             case .duplicateRecipient(let recipient):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Each unique email address in the `personalizations` array should only be included once. You have included \"%@\" more than once.",
                     comment: "Duplicate recipient"), recipient)
                 
             case .tooManyCustomArguments(let amount, let args):
-                var error = String(format: NSLocalizedString(
+                var error = String(format: LocalizableString(
                     "Each personalized email cannot have custom arguments exceeding %i bytes. The email you're attempting to send has %i bytes.",
                     comment: "Too many custom arguments"), Constants.CustomArguments.MaximumBytes, amount)
                 if let a = args {
-                    error += "  " + NSLocalizedString(
+                    error += "  " + LocalizableString(
                         "The offending custom args are below:",
                         comment: "Custom args exceeding max bytes") + "\n\n    \(a)"
                 }
                 return error
                 
             case .invalidContentID(let contentID):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Invalid content ID \"%@)\" for attachment: Content IDs cannot contain ‘;’, spaces, or CRLF characters, and must be at least 1 character long.",
                     comment: "Invalid content ID"), contentID)
 
             case .invalidFilename(let filename):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Invalid filename %@ for attachment: Filenames cannot contain ‘;’, spaces, or CRLF characters, and must be at least 1 character long.",
                     comment: "Invalid filename"), filename)
             }

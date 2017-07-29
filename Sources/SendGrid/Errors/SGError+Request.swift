@@ -39,22 +39,22 @@ public extension SGError {
         public var description: String {
             switch self {
             case .nonConformingRequest(let object):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "Could not build an `NSURLRequest` from `%@` as it doesn't conform to `Request`.",
                     comment: "Non-conforming request"),  String(describing: object))
                 
             case .unableToConstructUrl:
-                return NSLocalizedString(
+                return LocalizableString(
                     "There was a problem attempting to build the URL for the API call. Double check the `endpoint` property of your Request and the `host` property of `Session` to ensure they can form a valid URL.",
                     comment: "Unable to construct URL")
                 
             case .authorizationHeaderError:
-                return NSLocalizedString(
+                return LocalizableString(
                     "There was an error trying to add an `Authorization` header to the API request.  Double check the credentials and ensure there's no special characters.",
                     comment: "Authorization header error")
                 
             case .impersonationNotSupported(let object):
-                return String(format: NSLocalizedString(
+                return String(format: LocalizableString(
                     "The `%@` class does not support subuser impersonation. Please try making your request again leaving the `onBehalfOf` parameter `nil`.",
                     comment: "Impersonation not supported"), String(describing: object))
             }
