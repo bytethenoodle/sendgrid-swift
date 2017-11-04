@@ -50,6 +50,7 @@ public extension Statistic {
         internal let dateFormat: String
         
         /// The path for the endpoint.
+        internal var _path: String =  "/v3/stats"
         internal var path: String {
             return "/v3/stats"
         }
@@ -88,7 +89,7 @@ public extension Statistic {
             super.init(
                 method: .GET,
                 contentType: .formUrlEncoded,
-                path: self.path,
+                path: _path,
                 encoding: EncodingStrategy(dates: .formatted(formatter), data: .base64),
                 decoding: DecodingStrategy(dates: .formatted(formatter), data: .base64)
             )

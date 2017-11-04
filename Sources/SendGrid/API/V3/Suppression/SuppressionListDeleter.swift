@@ -16,6 +16,7 @@ public class SuppressionListDeleter<T : EmailEventRepresentable>: Request<[Strin
     //=========================================================================
 
     /// The path for the request's API endpoint.
+    internal var _path: String =  "/"
     internal var path: String { return "/" }
     
     /// A `Bool` indicating if all the events on the suppression list should be
@@ -38,7 +39,7 @@ public class SuppressionListDeleter<T : EmailEventRepresentable>: Request<[Strin
     internal init(deleteAll: Bool?, emails: [String]?) {
         self.deleteAll = deleteAll
         self.emails = emails
-        super.init(method: .DELETE, contentType: .json, path: self.path)
+        super.init(method: .DELETE, contentType: .json, path: _path)
     }
     
     /// Initializes the request with an array of email addresses to delete

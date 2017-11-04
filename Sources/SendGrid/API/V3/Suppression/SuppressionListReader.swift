@@ -25,6 +25,7 @@ public class SuppressionListReader<T : EmailEventRepresentable & Decodable>: Req
     public let page: Page?
     
     /// The path for the request's API endpoint.
+    internal var _path: String =  "/"
     internal var path: String {
         return "/"
     }
@@ -65,7 +66,7 @@ public class SuppressionListReader<T : EmailEventRepresentable & Decodable>: Req
         super.init(
             method: .GET,
             contentType: .formUrlEncoded,
-            path: "\(self.path)/\(email)"
+            path: "\(_path)/\(email)"
         )
     }
     
@@ -91,7 +92,7 @@ public class SuppressionListReader<T : EmailEventRepresentable & Decodable>: Req
         super.init(
             method: .GET,
             contentType: .formUrlEncoded,
-            path: self.path
+            path: _path
         )
         self.endpoint?.queryItems = self.queryItems
     }

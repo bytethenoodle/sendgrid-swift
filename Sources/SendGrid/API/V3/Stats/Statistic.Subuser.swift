@@ -75,7 +75,7 @@ public extension Statistic {
         ///   - aggregatedBy:   Indicates how the statistics should be grouped.
         ///   - subusers:       An array of subuser usernames to retrieve stats
         ///                     for (max 10).
-        public convenience init(startDate: Date, endDate: Date? = nil, aggregatedBy: Statistic.Aggregation? = nil, subusers: String...) {
+        public convenience init(startDate: Date, endDate: Date? = nil, aggregatedBy: Statistic.Aggregation? = nil, subusers: SendGrid.Subuser...) {
             self.init(startDate: startDate, endDate: endDate, aggregatedBy: aggregatedBy, subusers: subusers)
         }
         
@@ -102,7 +102,7 @@ public extension Statistic {
         ///   - aggregatedBy:   Indicates how the statistics should be grouped.
         ///   - subusers:       An array of `Subuser` instances to retrieve
         ///                     stats for (max 10).
-        public convenience init(startDate: Date, endDate: Date? = nil, aggregatedBy: Statistic.Aggregation? = nil, subusers: SendGrid.Subuser...) {
+        public convenience init(startDate: Date, endDate: Date? = nil, aggregatedBy: Statistic.Aggregation? = nil, subusers: String...) {
             self.init(startDate: startDate, endDate: endDate, aggregatedBy: aggregatedBy, subusers: subusers)
         }
         
