@@ -1,16 +1,6 @@
-# WORK IN PROGRESS
-
-This is the working branch for version 1.0.0.  The focus areas for this version are:
-
-- Rewrite from the ground up using Swift 4.
-- Use the new Codable protocol in Swift 4.
-- Add support for Linux.
-- Add a Docker container for development.
-- Add support for more API calls other than mail send.
-
-----
-
 # SendGrid-Swift
+
+![swift4](https://img.shields.io/badge/swift-v4.0-green.svg) ![macOS](https://img.shields.io/badge/os-macOS-blue.svg) ![iOS](https://img.shields.io/badge/os-iOS-blue.svg) ![Linux\*](https://img.shields.io/badge/os-Linux\*-blue.svg)
 
 This library allows you to quickly and easily send emails through SendGrid using Swift.
 
@@ -22,6 +12,10 @@ Versions 1.0.0 and higher have been migrated to Swift 4 and adds Linux support, 
 
 - Versions 0.2.0 and higher uses Swift 3, which introduces breaking changes from previous versions.
 - Versions 0.1.0 and higher have been migrated over to use SendGrid's [V3 Mail Send Endpoint](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html), which contains code-breaking changes.
+
+## \*A Note About Linux
+
+While this library does function on Linux via the Swift Package Manager, it relies upon the [open source Foundation library](https://github.com/apple/swift-corelibs-foundation) (specifically `URLSession`).  As it stands, [`URLSession` hasn't been fully implemented yet](https://github.com/apple/swift-corelibs-foundation/blob/master/Docs/Status.md). While this library uses what has been implemented to make the HTTP requests, critical implementations such as invalidating the session are unavailable, which could lead to unexpected behaviors such as memory leaks. This being said, Linux supported in this library should be treated as *experimental*.
 
 ## Full Documentation
 
@@ -119,17 +113,30 @@ session.authentication = Authentication.apiKey(myApiKey)
 
 All the available API calls are located in their own folders under the `./Sources/SendGrid/API` folder, and each one has its own README explaining how to use it. Below is a list of the currently available API calls:
 
-- [Statistics](Sources/SendGrid/API/V3/Stats)
-    + [Global Stats](Sources/SendGrid/API/V3/Stats#get-global-stats)
-    + [Category Stats](Sources/SendGrid/API/V3/Stats#get-category-stats)
-    + [Subuser Stats](Sources/SendGrid/API/V3/Stats#get-subuser-stats)
+- Statistics
+    + [Global Stats](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Statistic/Global.html)
+    + [Category Stats](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Statistic/Category.html)
+    + [Subuser Stats](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Statistic/Subuser.html)
+- Subuser API
+    + [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Subuser/Get.html)
 - Suppressions
-    + [Blocks API](Sources/SendGrid/API/V3/Suppression/Blocks)
-    + [Bounces API](Sources/SendGrid/API/V3/Suppression/Bounces)
-    + [Invalid Emails API](Sources/SendGrid/API/V3/Suppression/Invalid%20Emails)
-    + [Global Unsubscribes API](Sources/SendGrid/API/V3/Suppression/Global%20Unsubscribes)
-    + [Spam Reports API](Sources/SendGrid/API/V3/Suppression/Spam%20Reports)
-- [Mail Send](Sources/SendGrid/API/V3/Mail/Send)
+    + Blocks API
+        * [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Block.html#/s:8SendGrid5BlockV3GetC)
+        * [Delete](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Block/Delete.html)
+    + Bounces API
+        * [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Bounce.html#/s:8SendGrid6BounceV3GetC)
+        * [Delete](http://scottkawai.github.io/sendgrid-swift/docs/Structs/Bounce/Delete.html)
+    + Invalid Emails API
+        * [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/InvalidEmail.html#/s:8SendGrid12InvalidEmailV3GetC)
+        * [Delete](http://scottkawai.github.io/sendgrid-swift/docs/Structs/InvalidEmail/Delete.html)
+    + Global Unsubscribes API
+        * [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/GlobalUnsubscribe.html#/s:8SendGrid17GlobalUnsubscribeV3GetC)
+        * [Add](http://scottkawai.github.io/sendgrid-swift/docs/Structs/GlobalUnsubscribe/Add.html)
+        * [Delete](http://scottkawai.github.io/sendgrid-swift/docs/Structs/GlobalUnsubscribe/Delete.html)
+    + Spam Reports API
+        * [Get](http://scottkawai.github.io/sendgrid-swift/docs/Structs/SpamReport.html#/s:8SendGrid10SpamReportV3GetC)
+        * [Delete](http://scottkawai.github.io/sendgrid-swift/docs/Structs/SpamReport/Delete.html)
+- [Mail Send](http://scottkawai.github.io/sendgrid-swift/docs/Classes/Email.html)
 
 ## Development
 
